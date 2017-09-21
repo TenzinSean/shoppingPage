@@ -12,6 +12,7 @@
 		B47415CF1F73CA3800BA9F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47415CD1F73CA3800BA9F67 /* Main.storyboard */; };
 		B47415D11F73CA3800BA9F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47415D01F73CA3800BA9F67 /* Assets.xcassets */; };
 		B47415D41F73CA3800BA9F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47415D21F73CA3800BA9F67 /* LaunchScreen.storyboard */; };
+		B47415DE1F73D7A100BA9F67 /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47415DD1F73D7A100BA9F67 /* CurrencyField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B47415D01F73CA3800BA9F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47415D31F73CA3800BA9F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B47415D51F73CA3800BA9F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47415DD1F73D7A100BA9F67 /* CurrencyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		B47415C81F73CA3800BA9F67 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				B47415DC1F73D75B00BA9F67 /* View */,
+				B47415DB1F73CB0900BA9F67 /* Controller */,
 				B47415C91F73CA3800BA9F67 /* AppDelegate.swift */,
-				B47415CB1F73CA3800BA9F67 /* ViewController.swift */,
 				B47415CD1F73CA3800BA9F67 /* Main.storyboard */,
 				B47415D01F73CA3800BA9F67 /* Assets.xcassets */,
 				B47415D21F73CA3800BA9F67 /* LaunchScreen.storyboard */,
 				B47415D51F73CA3800BA9F67 /* Info.plist */,
 			);
 			path = ShoppingApp;
+			sourceTree = "<group>";
+		};
+		B47415DB1F73CB0900BA9F67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B47415CB1F73CA3800BA9F67 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B47415DC1F73D75B00BA9F67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B47415DD1F73D7A100BA9F67 /* CurrencyField.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47415DE1F73D7A100BA9F67 /* CurrencyField.swift in Sources */,
 				B47415CC1F73CA3800BA9F67 /* ViewController.swift in Sources */,
 				B47415CA1F73CA3800BA9F67 /* AppDelegate.swift in Sources */,
 			);
